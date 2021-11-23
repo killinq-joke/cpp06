@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: mout <mout@student.42.fr>                  +#+  +:+       +#+         #
+#    By: ztouzri <ztouzri@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/15 17:01:33 by ztouzri           #+#    #+#              #
-#    Updated: 2021/11/19 17:26:52 by mout             ###   ########.fr        #
+#    Updated: 2021/11/23 14:21:00 by ztouzri          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ CFLAGS = -Wall -Wextra -Werror
 SRCS = main.cpp
 OBJS = $(SRCS:cpp=o)
 NAME = exec
-TEST = test/test
+TEST = test
 
 .cpp.o:
 	$(CC) $(CFLAGS) $(SRCS) -c
